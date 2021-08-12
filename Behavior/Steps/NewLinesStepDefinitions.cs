@@ -17,14 +17,14 @@ namespace Behavior.Steps
             ScenarioContext.StepIsPending();
         }
 
-        [When(@"the program is run")]
-        public void WhenTheProgramIsRun()
+        [When(@"running the program")]
+        public void WhenRunningTheProgram()
         {
             ScenarioContext.StepIsPending();
         }
 
-        [Then(@"the amount of lines should be (.*)")]
-        public void ThenTheAmountOfLinesShouldBe(int lineCount)
+        [Then(@"the result should be (.*) lines")]
+        public void ThenTheResultShouldBeLines(int lineCount)
         {
             ScenarioContext.StepIsPending();
         }
