@@ -5,4 +5,4 @@ Scenario: Newline for each number between from and to
 	Given from 1
 	And to 100
 	When running the program
-	Then the result should be 100 lines
+	Then the result should be 101 lines
